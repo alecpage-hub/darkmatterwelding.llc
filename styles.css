@@ -402,6 +402,13 @@ a {
     border-color: #d946ef;
 }
 
+.gallery-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
 .placeholder-image {
     width: 100%;
     height: 250px;
