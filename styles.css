@@ -515,15 +515,18 @@ a {
 
 .social-link {
     display: inline-block;
-    background: linear-gradient(135deg, #d946ef 0%, #a855f7 100%);
-    color: #fff;
+    background-color: #333;
+    color: #d946ef;
     padding: 0.6rem 1.2rem;
     border-radius: 5px;
     font-weight: bold;
-    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #d946ef;
+    transition: all 0.3s;
 }
 
 .social-link:hover {
+    background: linear-gradient(135deg, #d946ef 0%, #a855f7 100%);
+    color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 0 15px rgba(217, 70, 239, 0.6);
 }
